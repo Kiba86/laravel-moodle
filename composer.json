@@ -1,6 +1,6 @@
 {
     "name": "kiba86/laravel-moodle",
-    "description": "Laravel Moodle client (fork by zhiru/laravel-moodle)",
+    "description": "Laravel Moodle client",
     "license": "MIT",
     "version": "1.0.0",
     "authors": [
