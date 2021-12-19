@@ -1,12 +1,12 @@
 <?php
 
-namespace Zhiru\LaravelMoodle\Entities;
+namespace Kiba86\LaravelMoodle\Entities;
 
-use Zhiru\LaravelMoodle\GenericCollection;
+use Kiba86\LaravelMoodle\GenericCollection;
 
 /**
  * Class CourseCollection
- * @package Zhiru\LaravelMoodle\Entities
+ * @package Kiba86\LaravelMoodle\Entities
  */
 class CourseCollection extends GenericCollection
 {

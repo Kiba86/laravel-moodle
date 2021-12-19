@@ -1,10 +1,10 @@
 <?php
 
-namespace Zhiru\LaravelMoodle\Clients;
+namespace Kiba86\LaravelMoodle\Clients;
 
 /**
  * Interface ClientAdapterInterface
- * @package Zhiru\LaravelMoodle\Clients
+ * @package Kiba86\LaravelMoodle\Clients
  */
 interface ClientAdapterInterface
 {

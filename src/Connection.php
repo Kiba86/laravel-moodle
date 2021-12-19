@@ -1,12 +1,12 @@
 <?php
 
-namespace Zhiru\LaravelMoodle;
+namespace Kiba86\LaravelMoodle;
 
 use Assert\Assertion;
 
 /**
  * Class Connection
- * @package Zhiru\LaravelMoodle
+ * @package Kiba86\LaravelMoodle
  */
 class Connection
 {

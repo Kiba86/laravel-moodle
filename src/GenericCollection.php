@@ -1,13 +1,13 @@
 <?php
 
-namespace Zhiru\LaravelMoodle;
+namespace Kiba86\LaravelMoodle;
 
 use IteratorAggregate;
 use ArrayIterator;
 
 /**
  * Class GenericCollection
- * @package Zhiru\LaravelMoodle\Entities
+ * @package Kiba86\LaravelMoodle\Entities
  */
 abstract class GenericCollection implements IteratorAggregate
 {

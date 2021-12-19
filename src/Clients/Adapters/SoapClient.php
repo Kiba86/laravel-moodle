@@ -1,13 +1,13 @@
 <?php
 
-namespace Zhiru\LaravelMoodle\Clients\Adapters;
+namespace Kiba86\LaravelMoodle\Clients\Adapters;
 
-use Zhiru\LaravelMoodle\Clients\BaseAdapter;
+use Kiba86\LaravelMoodle\Clients\BaseAdapter;
 use \SoapClient as BaseSoapClient;
 
 /**
  * Class SoapClient
- * @package Zhiru\LaravelMoodle\Clients\Adapters
+ * @package Kiba86\LaravelMoodle\Clients\Adapters
  *
  * @method BaseSoapClient getClient()
  */

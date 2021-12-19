@@ -1,6 +1,6 @@
 <?php
 
-namespace Zhiru\LaravelMoodle\Facades;
+namespace Kiba86\LaravelMoodle\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

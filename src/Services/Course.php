@@ -1,14 +1,14 @@
 <?php
 
-namespace Zhiru\LaravelMoodle\Services;
+namespace Kiba86\LaravelMoodle\Services;
 
-use Zhiru\LaravelMoodle\Entities\Course as CourseItem;
-use Zhiru\LaravelMoodle\Entities\Dto\Course as CourseDto;
-use Zhiru\LaravelMoodle\Entities\CourseCollection;
+use Kiba86\LaravelMoodle\Entities\Course as CourseItem;
+use Kiba86\LaravelMoodle\Entities\Dto\Course as CourseDto;
+use Kiba86\LaravelMoodle\Entities\CourseCollection;
 
 /**
  * Class Course
- * @package Zhiru\LaravelMoodle\Services
+ * @package Kiba86\LaravelMoodle\Services
  */
 class Course extends Service
 {
@@ -44,7 +44,7 @@ class Course extends Service
 
     /**
      * Create new course
-     * @param \Zhiru\LaravelMoodle\Entities\Dto\Course[] ...$courses
+     * @param \Kiba86\LaravelMoodle\Entities\Dto\Course[] ...$courses
      * @return CourseCollection
      */
     public function create(CourseDto ...$courses)

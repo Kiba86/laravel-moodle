@@ -1,19 +1,24 @@
 {
-    "name": "zhiru/laravel-moodle",
-    "description": "Laravel Moodle client",
+    "name": "kiba86/laravel-moodle",
+    "description": "Laravel Moodle client (fork by zhiru/laravel-moodle)",
     "license": "MIT",
     "version": "1.0.0",
     "authors": [
         {
+            "name": "Fabrizio Pulvirenti",
+            "role": "Developer"
+        },
+        {
             "name": "Felipe ALmeman",
             "email": "felipe@airese.com.br",
-            "homepage": "http://aireset.com.br"
+            "homepage": "http://aireset.com.br",
+            "role": "original author"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^7.0.1",
         "beberlei/assert": "^3.1"
     },
     "require-dev": {
@@ -22,18 +27,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Zhiru\\LaravelMoodle\\LaravelMoodleServiceProvider"
+                "Kiba86\\LaravelMoodle\\LaravelMoodleServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Zhiru\\LaravelMoodle\\": "src/"
+            "Kiba86\\LaravelMoodle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zhiru\\LaravelMoodle\\Tests\\": "tests/"
+            "Kiba86\\LaravelMoodle\\Tests\\": "tests/"
         }
     }
 }

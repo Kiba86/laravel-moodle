@@ -1,11 +1,12 @@
 <?php
-namespace Zhiru\LaravelMoodle;
+
+namespace Kiba86\LaravelMoodle;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class LaravelMoodleServiceProvider
- * @package Zhiru\LaravelMoodle
+ * @package Kiba86\LaravelMoodle
  */
 class LaravelMoodleServiceProvider extends ServiceProvider
 {
