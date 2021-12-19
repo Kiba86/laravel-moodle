@@ -1,6 +1,6 @@
 # Laravel Moodle Client
 
-### This is a fork of [ozq/moodle-client](https://github.com/ozq/moodle-client)
+### This is a fork of [zhiru/laravel-moodle](https://github.com/zhiru/laravel-moodle)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zhiru/laravel-moodle.svg?style=flat-square)](https://packagist.org/packages/zhiru/laravel-moodle)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
@@ -14,21 +14,21 @@
 |---|---|
 | ^5.5  | ^1.0  |
 
-`zhiru/laravel-moodle` is a Laravel package which created way to interact with moodle through api/webservice.
+`kiba86/laravel-moodle` is a Laravel package which created way to interact with moodle through api/webservice.
 
 ## In adaptation and Work in Progress
 
 ## Install
 To install through Composer, by run the following command:
 ```
-$ composer require zhiru/laravel-moodle
+$ composer require kiba86/laravel-moodle
 ```
 The package will automatically register a service provider and alias.
 
 Optionally, publish the package's configuration file by running:
 
 ``` bash
-php artisan vendor:publish --provider="Zhiru\LaravelMoodle\LaravelMoodleServiceProvider"
+php artisan vendor:publish --provider="Kiba86\LaravelMoodle\LaravelMoodleServiceProvider"
 ```
 
 ### Incorrect Documentation below 
